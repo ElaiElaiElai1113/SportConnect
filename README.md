@@ -1,16 +1,47 @@
-# sports_connect
+# SportConnect - Animated Splash Screen
 
-A new Flutter project.
+SportConnect is a Flutter-based app prototype featuring an engaging animated splash screen that transitions to an onboarding screen. This serves as a foundation for building dynamic, brand-oriented app entry points with animations.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+- Smooth animated splash screen:
+  - Opacity fade-in effect
+  - Logo movement along a curve path
+  - Continuous rotation animation
+- Auto-transition to the onboarding screen after animation completes
+- Light and dark theme support using Material 3
+- Placeholder onboarding screen ready for expansion
 
-A few resources to get you started if this is your first Flutter project:
+# Folder Structure
+lib/
+├── core/
+│   ├── constants/
+│   │   └── constants.dart           
+│   └── utils/
+│       └── responsive.dart           
+├── features/
+│   ├── splash/
+│   │   ├── presentation/
+│   │       ├── screens/
+│   │        └── splash_screen.dart
+│   │    
+│   │        
+│   │   
+│   └── onboarding/
+│       └── presentation/
+│           └── screens/
+│               └── onboarding_screen.dart
+├── main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+assets/
+├── basketball.jpeg
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+How to Run:
+Clone the repo:
+1. git clone https://github.com/your-username/sportconnect_splash.git
+   cd sportconnect_splash
+
+2. flutter pub get
+
+3. flutter run
